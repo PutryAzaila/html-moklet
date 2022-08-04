@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>pp</h1>
+    <h2>pp</h2>
+    <h3>pp</h3>
+    <h4>pp</h4>
+    <h5>pp</h5>
+    <h6>pp</h6>
+   <b>hai</b><br>
+   <i>pp</i><br>
+   <u>pp</u><br>
+   <sup>pp</sup><br)
+   <sub>pp</sub><br>
+   <del>pp</del><br>
+   <mark>pp</mark><br>
+   <!---List --->
+   <h1> Unordered List</h1>
+   <ol type= "a">
+    <li> satu </li>
+    <li> dua </li>
+    <li> tiga </li>
+   </ol>
+
+   <h2> Unordered List </h2>
+   <ul type="square">
+     <li> satu </li>
+     <li> dua </li>
+     <li> tiga </li> 
+    </ul>   
+    <!-- Table Formatting -->
+    <table border= "1">
+        <tr>
+            <th rowspan="2">No</th> <!--rowspan = menggabungkan baris 1 &2, colspan = menggabungkan kolom 3&4-->
+            <th rowspan="2">Nama</th>
+            <th colspan="2">Alamat</th>
+        </tr>
+        <tr>
+            <th> Jalan </th>
+            <th> Kota </th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ibnu</td>
+            <td>Jl.Jombang</td>
+            <td>Malang</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Maira</td>
+            <td>Jl.Makassar</td>
+            <td>Malang</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Wati</td>
+            <td>Jl.Jakarta</td>
+            <td>Malang</td>
+        </tr>
+    </table>
+    <table border ="1">
+        <tr>
+            <th rowspan = "3">NIS</th>
+            <th rowspan = "3">Nama</th>
+            <th colspan = "9">Bulan</th>
+
+        </tr>
+        <tr> 
+            <th colspan = "3">Januari </th>
+            <th colspan = "3"> Februari </th>
+            <th colspan = "3"> Maret </th>
+        </tr>
+        <tr>
+          <th>S</th>
+          <th>I</th>
+          <th>A</th>
+          <th>S</th>
+          <th>I</th>
+          <th>A</th>
+          <th>S</th>
+          <th>I</th>
+          <th>A</th>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>Zulkarnaen</td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr> 
+            <td>112</td>
+            <td>Zulkifli</td>
+            <td>10</td>
+            <td>2</td>
+            <td>3</td>
+            <td>21</td>
+            <td>9</td>
+            <td>0</td>
+            <td>20</td>
+            <td>30</td>
+            <td>2</td>
+        </tr>
+    </table>
+    
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Form Control</title>
+    </head>
+    <body>
+    <h3>Form Control pada HTML</h3>
+    <form class="" action="index.html" method="post">
+    <table cellpadding="5">
+    <tr>
+    <td>Input Text</td>
+    <td><input type="text" name="teks" value=""
+    placeholder="Nama Lengkap"></td>
+    <!--
+    "placeholder digunakan untuk watermark pada inputan"
+    -->
+    </tr>
+    <tr>
+    <td>Textarea</td>
+    <td><textarea name="name" rows="5" cols="30"
+    placeholder="Alamat Lengkap"></textarea></td>
+    <!--
+    "cols" digunakan untuk menentukan jumlah karakter
+    menyamping
+    "rows" digunakan untuk menentukan jumlah baris
+    textarea -->
+    </tr>
+    <tr>
+    <td>Input Number</td>
+    <td><input type="number" name="angka" value=""
+    placeholder="Usia"></td>
+    </tr>
+    <tr>
+    <td>Input Password</td>
+    <td><input type="password" name="password" value=""
+    placeholder="Password"></td>
+    </tr>
+    <tr>
+    <td>Input Date</td>
+    <td><input type="date" name="tanggal" value=""></td>
+    </tr>
+    <tr>
+    <td>Input Time</td>
+    <td><input type="time" name="jam" value=""></td>
+    </tr>
+    <tr>
+    <td>Input Range</td>
+    <td><input type="range" name="range" value=""></td>
+    </tr>
+    <tr>
+    <td>Input Radio</td>
+    <td>
+    <input type="radio" name="gender" value="L"> Pria
+    <input type="radio" name="gender" value="P"> Wanita
+    </td>
+    </tr>
+    <tr>
+    <td>Checkbox</td>
+    <td>
+    <input type="checkbox" name="hobi[]" value="sepak
+    bola"> Sepak Bola
+    <input type="checkbox" name="hobi[]"
+    value="basket"> Basket
+    <input type="checkbox" name="hobi[]" value="voli">
+    Bola Voli
+    </td>
+    </tr>
+    <tr>
+    <td>Combo Box</td>
+    <td>
+    <select name="jurusan">
+    <option value="">--Pilih Jurusan--</option>
+    <option value="RPL">Rekayasa Perangkat
+    Lunak</option>
+    <option value="TKJ">Teknik Komputer dan
+    Jaringan</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <td>Input File</td>
+    <td><input type="file" name="file" value=""></td>
+    </tr>
+    <tr>
+    <td>Input Color</td>
+    <td><input type="color" name="warna" value=""></td>
+    </tr>
+    <tr>
+    <td>Tombol</td>
+    <td>
+    <button type="button" name="button">Tombol
+    Biasa</button>
+    <button type="submit" name="button">Tombol Submit
+    Data</button>
+    <!-- "submit" digunakan untuk mengumpulkan data
+    yang ada pada form -->
+    <button type="reset" name="button">Tombol
+    Reset</button>
+    
+    <!-- "reset" digunakan untuk mereset inputan yang
+    sudah terisi -->
+    </td>
+    </tr>
+    </table>
+    </form>
+    </body>
+    </html>
+</body>
+</html>
